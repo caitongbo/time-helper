@@ -77,7 +77,7 @@ export const config:Config= {
     PROXY_HOST:null,
     PROXY_PORT:null,
     APP_VERSION:10525101,
-    TEXT_OK:'芜湖~打卡完成！',
+    TEXT_OK:'今日打卡完成~',
     TEMP_RANGE:"35.4-36.9"
 }
 export function setupConfig(data:{[key in keyof typeof config]?:string}){
